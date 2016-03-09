@@ -1,0 +1,126 @@
+-------------------------------------------------------------------------------
+Test set: ceneo.CeneoHomePageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 56.479 sec <<< FAILURE!
+shouldCeneoTitle(ceneo.CeneoHomePageTest)  Time elapsed: 56.357 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ABOROWI\AppData\Local\Temp\anonymous4084475129193973085webdriver-profile\extensions\fxdriver@googlecode.com
+1457014266608	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\MABOROWI\AppData\Local\Temp\anonymous4084475129193973085webdriver-profile\extensions\webdriver-staging
+1457014266609	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1457014266612	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1457014266613	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1457014266614	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1457014266615	addons.xpi	DEBUG	checkForChanges
+1457014266616	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\MABOROWI\\AppData\\Local\\Temp\\anonymous4084475129193973085webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.26.0","st":1457014257049,"mt":1457014257013}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"44.0.2","st":1456926063947,"mt":1455153612000}}}
+1457014266620	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1457014266622	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1457014266625	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1457014266626	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\MABOROWI\\AppData\\Local\\Temp\\anonymous4084475129193973085webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.26.0","st":1457014257049,"mt":1457014257013}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"44.0.2","st":1456926063947,"mt":1455153612000}}}
+1457014266630	addons.xpi	DEBUG	No changes found
+1457014266655	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1457014266657	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1457014266657	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1457014266657	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1457014266658	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1457014266659	addons.manager	DEBUG	Starting provider: GMPProvider
+1457014266674	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1457014266675	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1457014266675	addons.manager	DEBUG	Starting provider: PluginProvider
+1457014266676	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1457014266677	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1457014266678	addons.manager	DEBUG	Completed startup sequence
+1457014267031	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\MABOROWI\AppData\Local\Temp\anonymous4084475129193973085webdriver-profile\extensions.json
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1457014267424	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1457014267424	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1457014267425	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1457014268092	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1457014268092	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1457014268095	addons.xpi-utils	DEBUG	Successfully read XPI database
+1457014268967	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1457014268967	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1457014268968	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_72'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:109)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:178)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at basics.AbstractSelenium.setUp(AbstractSelenium.java:28)
+	at ceneo.CeneoHomePageTest.setUp(CeneoHomePageTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ABOROWI\AppData\Local\Temp\anonymous4084475129193973085webdriver-profile\extensions\fxdriver@googlecode.com
+1457014266608	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\MABOROWI\AppData\Local\Temp\anonymous4084475129193973085webdriver-profile\extensions\webdriver-staging
+1457014266609	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1457014266612	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1457014266613	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1457014266614	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1457014266615	addons.xpi	DEBUG	checkForChanges
+1457014266616	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\MABOROWI\\AppData\\Local\\Temp\\anonymous4084475129193973085webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.26.0","st":1457014257049,"mt":1457014257013}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"44.0.2","st":1456926063947,"mt":1455153612000}}}
+1457014266620	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1457014266622	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1457014266625	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1457014266626	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\MABOROWI\\AppData\\Local\\Temp\\anonymous4084475129193973085webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.26.0","st":1457014257049,"mt":1457014257013}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"44.0.2","st":1456926063947,"mt":1455153612000}}}
+1457014266630	addons.xpi	DEBUG	No changes found
+1457014266655	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1457014266657	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1457014266657	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1457014266657	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1457014266658	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1457014266659	addons.manager	DEBUG	Starting provider: GMPProvider
+1457014266674	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1457014266675	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1457014266675	addons.manager	DEBUG	Starting provider: PluginProvider
+1457014266676	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1457014266677	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1457014266678	addons.manager	DEBUG	Completed startup sequence
+1457014267031	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\MABOROWI\AppData\Local\Temp\anonymous4084475129193973085webdriver-profile\extensions.json
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1457014267424	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1457014267424	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1457014267425	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1457014268092	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1457014268092	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1457014268095	addons.xpi-utils	DEBUG	Successfully read XPI database
+1457014268967	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1457014268967	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1457014268968	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:106)
+	... 38 more
+

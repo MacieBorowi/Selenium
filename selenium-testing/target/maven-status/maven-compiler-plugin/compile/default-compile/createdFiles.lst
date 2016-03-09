@@ -1,0 +1,10 @@
+ldrygala\petclinic\pages\FindOwnersPage.class
+ldrygala\petclinic\AbstractSelenium.class
+ldrygala\petclinic\SeleniumScreenshotJUnit4Runner.class
+ldrygala\petclinic\pages\NewOwnerPage.class
+ldrygala\petclinic\SeleniumScreenshotJUnit4Runner$1.class
+ldrygala\petclinic\pages\NewPetPage.class
+ldrygala\petclinic\enums\PetType.class
+ldrygala\petclinic\AbstractPageObject.class
+ldrygala\petclinic\pages\OwnerInfomrationPage.class
+ldrygala\petclinic\pages\HomePage.class
